@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Sederhana</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <!-- Header (Menu Utama) -->
+    <header class="bg-white shadow-lg p-4 md:px-8 w-full flex justify-between items-center z-10">
+        <div class="text-2xl font-bold text-gray-800">My Dashboard</div>
+        <nav class="space-x-4 hidden md:flex">
+            <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors duration-200">Beranda</a>
+            <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors duration-200">Layanan</a>
+            <a href="#" class="text-gray-600 hover:text-blue-600 transition-colors duration-200">Tentang</a>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main class="flex-1 p-8 overflow-y-auto">
+        <!-- Bagian Selamat Datang -->
+        <header class="mb-8">
+            <h2 class="text-4xl font-bold text-gray-800">Selamat Datang di Dashboard!</h2>
+            <p class="text-gray-600 mt-2">Ini adalah halaman utama Anda dengan informasi dan tautan penting.</p>
+        </header>
+
+        <!-- Tautan Media Sosial -->
+        <section class="mb-8">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center sm:text-left">Ikuti Kami di Media Sosial</h3>
+            <div class="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-6">
+                <!-- Tautan Instagram -->
+                <a href="https://www.instagram.com" target="_blank" class="flex flex-col items-center p-6 rounded-xl shadow-md bg-white hover:scale-105 transition-transform duration-300 w-full sm:w-auto">
+                    <img src="https://placehold.co/100x100/A32A9A/ffffff?text=Instagram" alt="Instagram Logo" class="rounded-xl mb-2">
+                    <span class="text-gray-700 font-medium">Instagram</span>
+                </a>
+                <!-- Tautan YouTube -->
+                <a href="https://www.youtube.com" target="_blank" class="flex flex-col items-center p-6 rounded-xl shadow-md bg-white hover:scale-105 transition-transform duration-300 w-full sm:w-auto">
+                    <img src="https://placehold.co/100x100/FF0000/ffffff?text=YouTube" alt="YouTube Logo" class="rounded-xl mb-2">
+                    <span class="text-gray-700 font-medium">YouTube</span>
+                </a>
+                <!-- Tautan Twitter -->
+                <a href="https://www.twitter.com" target="_blank" class="flex flex-col items-center p-6 rounded-xl shadow-md bg-white hover:scale-105 transition-transform duration-300 w-full sm:w-auto">
+                    <img src="https://placehold.co/100x100/00acee/ffffff?text=Twitter" alt="Twitter Logo" class="rounded-xl mb-2">
+                    <span class="text-gray-700 font-medium">Twitter</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Bagian Konten Tambahan -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h4 class="text-lg font-bold text-gray-800 mb-2">Laporan Mingguan</h4>
+                <p class="text-gray-600">Lihat ringkasan performa Anda dalam seminggu terakhir.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h4 class="text-lg font-bold text-gray-800 mb-2">Statistik Pengguna</h4>
+                <p class="text-gray-600">Pantau pertumbuhan pengguna baru di platform Anda.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded-xl shadow-md">
+                <h4 class="text-lg font-bold text-gray-800 mb-2">Pemberitahuan Terbaru</h4>
+                <p class="text-gray-600">Informasi dan pembaruan penting untuk Anda.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-4 mt-auto text-center">
+        <p>&copy; 2024 Dashboard Sederhana. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
