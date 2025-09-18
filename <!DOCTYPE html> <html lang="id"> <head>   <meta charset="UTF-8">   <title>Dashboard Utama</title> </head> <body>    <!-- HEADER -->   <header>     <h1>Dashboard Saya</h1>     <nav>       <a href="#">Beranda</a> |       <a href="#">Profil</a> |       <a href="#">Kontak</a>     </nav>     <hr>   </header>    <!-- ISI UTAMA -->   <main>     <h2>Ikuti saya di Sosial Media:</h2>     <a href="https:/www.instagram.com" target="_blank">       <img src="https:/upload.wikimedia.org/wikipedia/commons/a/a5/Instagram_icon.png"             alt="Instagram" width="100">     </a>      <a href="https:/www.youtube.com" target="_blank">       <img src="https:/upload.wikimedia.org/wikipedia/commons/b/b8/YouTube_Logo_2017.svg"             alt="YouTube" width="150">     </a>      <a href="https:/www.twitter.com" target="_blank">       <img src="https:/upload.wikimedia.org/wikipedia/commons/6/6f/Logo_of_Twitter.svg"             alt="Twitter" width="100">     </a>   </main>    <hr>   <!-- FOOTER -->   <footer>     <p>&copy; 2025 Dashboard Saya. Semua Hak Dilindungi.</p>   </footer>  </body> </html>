@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Utama</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Dashboard Saya</h1>
+    <nav>
+      <a href="#">Beranda</a> |
+      <a href="#">Profil</a> |
+      <a href="#">Kontak</a>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- ISI UTAMA -->
+  <main>
+    <h2>Ikuti saya di Sosial Media:</h2>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+           alt="Instagram" width="100">
+    </a>
+
+    <a href="https://www.youtube.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" 
+           alt="YouTube" width="150">
+    </a>
+
+    <a href="https://www.twitter.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" 
+           alt="Twitter" width="100">
+    </a>
+  </main>
+
+  <hr>
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Dashboard Saya. Semua Hak Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
